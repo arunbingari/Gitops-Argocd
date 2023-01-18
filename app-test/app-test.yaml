@@ -50,7 +50,7 @@ metadata:
 spec:
   rules:
   - host: 
-"127.0.0.1:63540"
+       "127.0.0.1:63540"
     http:
       paths:
       - path: /
