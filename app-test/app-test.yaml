@@ -49,8 +49,7 @@ metadata:
   namespace: app-test-1
 spec:
   rules:
-  - host: 
-       "127.0.0.1:63540"
+  - host: "app-test-1.kube-demo-1.clcreative.home"
     http:
       paths:
       - path: /
