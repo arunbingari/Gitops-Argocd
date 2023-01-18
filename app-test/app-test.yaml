@@ -48,8 +48,12 @@ metadata:
   name: app-test-1-ingress
   namespace: app-test-1
 spec:
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
   rules:
-  - host: "app-test-1.kube-demo-1.clcreative.home"
+  - host: 
     http:
       paths:
       - path: /
